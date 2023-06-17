@@ -1341,6 +1341,7 @@ vendor/lib64/libswvdec.so
 # Osense
 odm/lib64/libosensehalclient.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
+odm/framework/vendor.oplus.hardware.osense.client-V1.0-java.jar
 
 # Perf
 odm/lib64/vendor.oplus.hardware.performance@1.0.so

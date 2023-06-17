@@ -113,13 +113,21 @@
             <name>ISensorFeature</name>
             <instance>default</instance>
         </interface>
-    </hal>    
+    </hal>   
     <hal format="hidl" optional="true">
         <name>vendor.oplus.hardware.orms</name>
         <version>1.0</version>
         <interface>
             <name>IOrmsHalProxy</name>
             <instance>ORMS_HAL_PROXY</instance>
+        </interface>
+    </hal> 
+    <hal format="hidl" optional="true">
+        <name>vendor.oplus.hardware.osense.client</name>
+        <version>1.0</version>
+        <interface>
+            <name>IOsenseHalReporter</name>
+            <instance>OsenseHalReporter</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
