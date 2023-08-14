@@ -758,6 +758,7 @@ odm/lib64/libdav1d.so.4
 odm/lib64/libeffect_custom.so
 odm/lib64/libfastov_dsp.so
 odm/lib64/libhci_face_camera_api.so
+odm/lib64/libTeeClient.so
 odm/lib64/libhwconfigurationutil.so
 odm/lib64/libhyperlapse.so
 odm/lib64/libimgClarityEvaluate.so
