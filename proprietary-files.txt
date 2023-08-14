@@ -75,14 +75,13 @@ vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 odm/lib/libaudioEngineerTest.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libqcvirt.so
-vendor/lib/soundfx/libshoebox.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
+vendor/lib/soundfx/libqcvirt.so
+vendor/lib/soundfx/libshoebox.so
 vendor/lib/liba2dpoffload.so
-vendor/lib/libssrec.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -94,9 +93,10 @@ vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioconfigstore.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libqtigef.so
-vendor/lib64/libadsprpc.so
+vendor/lib/libssrec.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcvirt.so
+vendor/lib64/libadsprpc.so
 
 # Bluetooth
 odm/etc/bt/htnv20.bin
@@ -1105,8 +1105,8 @@ vendor/lib/libCB.so
 vendor/lib/libOpenCL.so
 vendor/lib/libVkLayer_q3dtools.so
 vendor/lib/libadreno_utils.so
-vendor/lib/libgpudataproducer.so
 vendor/lib/libc2d30_bltlib.so
+vendor/lib/libgpudataproducer.so
 vendor/lib/libgsl.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
@@ -1232,23 +1232,23 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 
 # Media
-vendor/etc/media_profiles.xml
-vendor/etc/media_profiles_kona.xml
-vendor/etc/media_profiles_vendor.xml
+odm/etc/seccomp_policy/codec2.vendor.base.policy
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
+vendor/bin/hw/vendor.qti.media.c2@1.0-service
+vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
+vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
+vendor/etc/seccomp_policy/mediacodec.policy
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_kona.xml
 vendor/etc/media_codecs_kona_vendor.xml
 vendor/etc/media_codecs_performance_kona.xml
 vendor/etc/media_codecs_performance_kona_vendor.xml
 vendor/etc/media_codecs_vendor_audio.xml
-odm/etc/seccomp_policy/codec2.vendor.base.policy
-vendor/bin/hw/vendor.qti.media.c2@1.0-service
-vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
-vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
-vendor/etc/seccomp_policy/mediacodec.policy
+vendor/etc/media_profiles.xml
+vendor/etc/media_profiles_kona.xml
+vendor/etc/media_profiles_vendor.xml
 vendor/etc/system_properties.xml
 vendor/lib/libmmosal.so
 vendor/lib/libqc2vppfilter.so|d383415a845b669ea8d6cb0822b3765183231782
@@ -1259,18 +1259,18 @@ vendor/lib/libqcodec2_platform.so
 vendor/lib/libqcodec2_utils.so
 vendor/lib/libqcodec2_v4l2codec.so
 vendor/lib64/libmmosal.so
+vendor/lib64/libqc2vppfilter.so|07216c66eeb283096a4da88105ec06aefbf41bf6
 vendor/lib64/libqcodec2_base.so
 vendor/lib64/libqcodec2_basecodec.so
 vendor/lib64/libqcodec2_core.so
 vendor/lib64/libqcodec2_platform.so
 vendor/lib64/libqcodec2_utils.so
 vendor/lib64/libqcodec2_v4l2codec.so
-vendor/lib64/libqc2vppfilter.so|07216c66eeb283096a4da88105ec06aefbf41bf6
 
 # Media - from RMX3370_11.C.10
+vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
 vendor/etc/media_codecs_c2.xml|490211cad553ce69d536c0e55848b6a7d499260d
 vendor/etc/media_codecs_performance_c2.xml|e16b7768c91f1e15ca3ddc146a77645605a1d090
-vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
 
 # Native public libraries
 vendor/etc/public.libraries.txt
@@ -1339,9 +1339,9 @@ vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libswvdec.so
 
 # Osense
+odm/framework/vendor.oplus.hardware.osense.client-V1.0-java.jar
 odm/lib64/libosensehalclient.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
-odm/framework/vendor.oplus.hardware.osense.client-V1.0-java.jar
 
 # Perf
 odm/lib64/vendor.oplus.hardware.performance@1.0.so
@@ -1409,12 +1409,12 @@ vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
 
 # QSPM
+system_ext/lib64/libpenguin.so
 vendor/bin/vendor.qti.qspmhal@1.0-service
 vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
 vendor/etc/seccomp_policy/qspm.policy
 vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
 vendor/lib64/vendor.qti.qspmhal@1.0.so
-system_ext/lib64/libpenguin.so
 
 # Radio
 odm/bin/oemnvbkdaemon
