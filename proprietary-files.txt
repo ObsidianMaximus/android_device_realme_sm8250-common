@@ -1398,7 +1398,6 @@ odm/lib64/libosenseaidlhalclient.so
 odm/lib64/libosensehalclient.so
 odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
-odm/framework/vendor.oplus.hardware.osense.client-V1.0-java.jar
 
 # Perf
 odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so
