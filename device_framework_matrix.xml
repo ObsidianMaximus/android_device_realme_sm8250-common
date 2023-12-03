@@ -108,7 +108,6 @@
             <name>ICameraExtensionService</name>
             <instance>cameraextensionservice</instance>
         </interface>
-        </interface>
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.oplus.hardware.cammidasservice</name>
@@ -182,7 +181,7 @@
             <name>ISensorFeature</name>
             <instance>default</instance>
         </interface>
-    </hal>    
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.oplus.hardware.orms</name>
         <version>1.0</version>

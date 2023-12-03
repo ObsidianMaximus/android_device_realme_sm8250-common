@@ -8,13 +8,6 @@ debug.sf.enable_hwc_vds=0
 debug.sf.latch_unsignaled=0
 persist.sys.brightness.low.gamma=true
 
-# Camera
-ro.oplus.system.camera.name=com.oplus.camera
-ro.oplus.system.camera.flashlight=com.oplus.motor.flashlight
-ro.oplus.camera.video_beauty.prefix=oplus.video.beauty.
-ro.oplus.camera.video.beauty.switch=oplus.switch.video.beauty
-ro.oplus.camera.speechassist=true
-
 # CNE
 persist.vendor.cne.feature=1
 

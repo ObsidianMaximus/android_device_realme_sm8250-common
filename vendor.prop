@@ -94,9 +94,6 @@ vendor.qcom.bluetooth.soc=hastings
 # Camera
 vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram
 
-# Camera
-vendor.camera.algo.jpeghwencode=0
-
 # Chipset
 ro.soc.model=SM8250
 
