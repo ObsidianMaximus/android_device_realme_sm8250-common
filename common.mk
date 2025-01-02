@@ -23,6 +23,9 @@ $(call inherit-product, vendor/realme/sm8250-common/sm8250-common-vendor.mk)
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
+# Include oplus-fwk required for oplus camera
+$(call inherit-product, hardware/oplus/oplus-fwk/oplus-fwk.mk)
+
 # ANT
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
